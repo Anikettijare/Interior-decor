@@ -1,0 +1,500 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 310px 420px 350px 200px;
+    grid-template-columns:249px;
+}
+/* CSS applied to childbox1 */
+.childbox1{
+    position:fixed;
+    width:250px;
+    height: 100vh;
+    background-color: #f44336;
+    color: white;
+    grid-row: 1/5;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-top: 4rem;
+}
+.bars {
+    display: none;
+}
+.navbar{
+    padding-top: 6rem;
+    margin: 0px 5px 0pc 5px;
+}
+.navbar a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    display: block;
+    margin-top: 20px;
+    padding: 8px 0px 5px 20px;
+    text-align: justify;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: white;
+    color: black;
+}
+.menu-bar{
+    font-size: 30px;
+    float:right;
+    display:none;
+}
+.menu-bar a i{
+    color: white;
+}
+.menu-bar a{
+    padding: 8px;
+}
+/* CSS applied to childbox2 */
+.childbox2{  
+    width:100%; 
+    grid-column: 2/5;
+}
+.heading{
+    margin: 80px 0px 0px 50px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.heading h5{
+    color:#f44336;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.heading hr{
+    width:50px;
+    border:5px solid red; 
+    border-radius: 10px;
+}
+/* CSS applied to childbox3 */
+.childbox3{
+    width: 100%;
+    grid-column: 2/5;
+    grid-row: 2/6;
+}
+img{
+    width:455px;
+    height: 300px;
+    margin: 5px;
+}
+.images{
+    margin-left: 50px;
+}
+/* CSS applied to childbox4 */
+.childbox4{
+    width: 100%;
+    grid-column: 2/5;
+}
+.services{
+    margin-left: 50px;
+}
+.services h1{
+    color: #f44336;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.services hr{
+    width:50px;
+    border:5px solid red; 
+    border-radius: 10px;
+}
+.info{
+    margin: 20px 55px 0px 50px;
+    text-align: justify;
+}
+.info p{
+    font-size: 20px;
+}
+/* CSS applied to childbox5 */
+.childbox5{
+    width: 100%;
+    grid-column: 2/5;
+}
+.designers{
+    margin-left: 50px;
+}
+.designers h1{
+    color: #f44336;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.designers hr{
+    width:50px;
+    border:5px solid red; 
+    border-radius: 10px;
+}
+.content{
+    margin: 20px 55px 0px 50px;
+    text-align: justify;
+}
+.content p{
+    font-size: 20px;
+}
+/* CSS applied to childbox6 */
+.childbox6{
+    width: 100%;
+    grid-column: 2/5;
+}
+.designers-card{
+    margin-left: 50px;
+}
+.designers-card h5{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.img-cards{
+     margin-right: 75px;
+}
+.cards{
+    width: 300px;
+    height: 360px;
+    margin-top: 10px;
+    background-color: #f1f1f1;
+    float: right;
+    margin: 6px;
+}
+.cards img{
+    width: 290px;
+    height: 194px;
+}
+.cards h1{
+    padding-left: 5px;
+}
+.cards h5{
+    font-size: 20px;
+    color: rgb(168, 163, 163);
+    padding-left: 5px;
+}
+.cards p{
+    text-align: justify;
+    padding: 5px  ;
+}
+/* CSS applied to childbox7 */
+.childbox7{
+    width: 100%;
+    grid-column: 2/5;
+}
+.packages h1{
+    color:#f44336;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.packages hr{
+    width:50px;
+    border:5px solid red; 
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.pack-content{
+    margin: 20px 55px 0px 50px;
+    text-align: justify;
+    font-size: 20px;
+}
+ /* CSS applied to childbox8*/
+ .childbox8{
+    width: 100%;
+    grid-column: 2/5;
+}
+.list1{
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.list1 ul li{
+    padding: 20px 150px 20px 150px;
+    background-color: #f1f1f1;
+    border: 1px solid #e1dbdb;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+.list1 ul li button{
+    padding: 10px;
+    background-color:#e1dbdb;
+    border: none;
+}
+.list1 ul li button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.list2{
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;   
+}
+.list2 ul li{
+    padding: 20px 150px 20px 150px;
+    background-color: #f1f1f1;
+    border: 1px solid #e1dbdb;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+.list2 ul li button{
+    padding: 10px;
+    background-color:#f44336;
+    color: white;
+    border: none;
+}
+.list2 ul li button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+/* CSS applied to childBox9 */
+.childbox9{
+    width: 100%;
+    grid-column: 2/5;
+}
+.contact-detail h1{
+    color: #f44336;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 50px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.contact-detail hr{
+    width:50px;
+    border:5px solid red; 
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.contact-detail p{
+    margin-left: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.contact-form{
+    margin-left: 50px;
+}
+.contact-form form{
+    margin-top: 20px;
+    
+}
+.contact-form form input{
+    margin-bottom: 10px;
+    padding-top: 15px;
+    width: 88%;
+    border:1px solid #e1dbdb;
+}
+.contact-form form button{
+    width:88%;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding:15px;
+}
+.contact-form form button:hover{
+    background-color: #e1dbdb;
+    color: black;
+
+}
+.footer{
+    margin-top: 40px;
+    background-color: rgb(241,241,241);
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.footer p{
+    text-align: center;
+}
+@media (max-width:1250px){
+    img{
+        width:340px;
+        height: 250px;
+    }
+    .img-cards{
+        margin-right: 50px;
+    }
+    .cards{
+        width: 240px;
+        height: 360px;
+        margin-top: 10px;
+        background-color: #f1f1f1;
+        float: right;
+        margin-right: 3px;
+    }
+    .cards img{
+        width: 230px;
+        height: 194px;
+    }
+    .list1{
+        margin-left: 70px;
+    }
+    .list1 ul li{
+        padding: 20px 100px 20px 100px;
+        background-color: #f1f1f1;
+        border: 1px solid #e1dbdb;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        text-align: center;
+    }
+    .list2{
+        margin-right: 70px;
+    }
+    .list2 ul li{
+        padding: 20px 100px 20px 100px;
+        background-color: #f1f1f1;
+        border: 1px solid #e1dbdb;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        text-align: center;
+    }
+
+}
+@media (max-width:1000px) {
+    .childbox1{
+        position:fixed;
+        width:100%;
+        height: 80px;
+        background-color: #f44336;
+        color: white;
+    }
+    .bars {
+        display: block;
+        float: right;
+        margin: 10px 30px;
+        font-size: 60px;
+    }
+    .bars a i{
+        color: white;
+    }
+    .logo {
+        font-size: 1.5rem;
+        font-weight: bolder;
+        padding-left: 20px;
+        padding-top: 1.2rem;
+    }
+    .navbar{
+        display: none;
+    }
+    .childbox2{  
+        width:100%; 
+        grid-column: 1/5;
+    }
+    .childbox3{
+        width: 100%;
+        grid-column: 1/5;
+    }
+    img{
+        width:372px;
+        height: 285px;
+        margin: 5px;
+    }
+    .childbox4{
+        width: 100%;
+        grid-column: 1/5;
+    }
+    .childbox5{
+        width: 100%;
+        grid-column: 1/5;
+    }
+    .childbox6{
+        width: 100%;
+        grid-column: 1/5;
+    }
+    .cards{
+        margin-right: 22px;
+    }
+    .childbox7{
+        width: 100%;
+        grid-column: 1/5;
+    }
+    .childbox8{
+        width: 100%;
+        grid-column: 1/5;
+    }
+    .list1 ul li{
+        padding: 20px 80px 20px 80px;
+    }
+    .list2 ul li{
+        padding: 20px 80px 20px 80px;
+    }
+    .childbox9{
+        width: 100%;
+        grid-column: 1/5;
+    }
+
+}
+@media (max-width:900px){
+    img {
+        width: 330px;
+        height: 310px;
+        margin: 5px;
+    }
+    .img-cards{
+        margin-right: 52px;
+    }
+    .cards{
+        width: 207px;
+        height: 360px;
+        margin-top: 10px;
+        background-color: #f1f1f1;
+        float: right;
+        margin-right: 9px;
+    }
+    .cards img{
+        width: 200px;
+        height: 194px;
+    }
+    .list1{
+        margin-left: 65px;
+    }
+    .list2{
+        margin-right: 73px;
+    }
+    .contact-detail p{
+        margin-right: 10px;
+    }
+
+}
+@media (max-width:500px){
+    .heading{
+        margin: 85px 0px 0px 25px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .images{
+        margin-left: 18px;
+    }
+    .img-cards {
+        margin-right: 85px;
+    }
+    .list1{
+        margin-left: 35px;
+    }
+    .list2{
+        margin-right: 31px;
+    }
+    .contact-detail p {
+        margin-right: 12px;
+    }
+}
