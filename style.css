@@ -498,3 +498,22 @@ img{
         margin-right: 12px;
     }
 }
+@media (max-width:380px){
+    .heading{
+        margin: 95px 0px 0px 20px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .images{
+        margin-left: 11px;
+    }
+    .img-cards {
+        margin-right: 70px;
+    }
+    .list1{
+        margin-left: 28px;
+    }
+    .list2{
+        margin-right: 25px;
+    }
+}
