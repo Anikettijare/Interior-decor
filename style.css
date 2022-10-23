@@ -498,7 +498,7 @@ img{
         margin-right: 12px;
     }
 }
-@media (max-width:380px){
+@media (max-width:360px){
     .heading{
         margin: 95px 0px 0px 20px;
         font-weight: bold;
