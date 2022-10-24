@@ -517,3 +517,22 @@ img{
         margin-right: 25px;
     }
 }
+@media (max-width:1024px){
+    .img-cards {
+        margin-right: 28px;
+    }
+    .cards {
+        width: 223px;
+        height: 360px;
+    }
+    .cards img {
+        width: 212px;
+        height: 194px;
+    }
+    .list1 {
+        margin-left: 52px;
+    }
+    .list2{
+        margin-right: 25px;
+    }
+}
