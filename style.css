@@ -216,6 +216,7 @@ img{
  .childbox8{
     width: 100%;
     grid-column: 2/5;
+    clear: both;
 }
 .list1{
     float: left;
@@ -488,33 +489,18 @@ img{
     .img-cards {
         margin-right: 85px;
     }
+    
     .list1{
-        margin-left: 2.2rem;
+        margin-left: 52px;
+        margin-right: 52px;
     }
     .list2{
-        margin-right: 2rem;
+        margin-right:52px;
+        margin-left: 52px;
     }
     .contact-detail p {
         margin-right: 12px;
     }
 }
-@media (max-width:370px){
-    .heading{
-        margin: 95px 0px 0px 20px;
-        font-weight: bold;
-        font-size: 25px;
-    }
-    .images{
-        margin-left: 11px;
-    }
-    .img-cards {
-        margin-right: 70px;
-    }
-    .list1{
-        margin-left: 35px;
-    }
-    .list2{
-        margin-right: 27px;
-    }
-}
+
 
