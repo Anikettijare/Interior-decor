@@ -368,7 +368,6 @@ img{
         border-right: none;
         text-align: center;
     }
-
 }
 @media (max-width:1000px) {
     .childbox1{
@@ -383,6 +382,7 @@ img{
         float: right;
         margin: 10px 30px;
         font-size: 60px;
+        cursor: pointer;
     }
     .bars a i{
         color: white;
@@ -489,10 +489,10 @@ img{
         margin-right: 85px;
     }
     .list1{
-        margin-left: 34px;
+        margin-left: 2.2rem;
     }
     .list2{
-        margin-right: 30px;
+        margin-right: 2rem;
     }
     .contact-detail p {
         margin-right: 12px;
