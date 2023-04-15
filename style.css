@@ -381,8 +381,8 @@ img{
     .bars {
         display: block;
         float: right;
-        margin: 10px 30px;
-        font-size: 60px;
+        margin: 20px;
+        font-size: 40px;
         cursor: pointer;
     }
     .bars a i{
@@ -464,7 +464,7 @@ img{
     }
     .cards img{
         width: 200px;
-        height: 194px;
+        height: 170px;
     }
     .list1{
         margin-left: 65px;
